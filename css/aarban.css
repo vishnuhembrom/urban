@@ -1,0 +1,55 @@
+*{box-sizing: border-box;padding: 0;margin: 0;}.body{font-size: 16px;  font-family: 'Scope One';}
+.full-baner{background-image:url("./banner.jpg");background-color: rgb(228, 223, 223); width: 100%;padding-bottom: 43rem;background-position: center;background-size: cover;}
+nav{display: flex;justify-content: space-between;}nav a{color:white;text-decoration: none;font-size: 1.90rem;} nav span{color:hsl(208, 56%, 46%);font-size: 2rem;}
+.head{text-align: center;color: white;position: relative;top:21rem;}.head ,h1 ,p{padding: 0.70rem 0;}.head p{font-size: 2rem;}
+img{width: 100%;border: 1px solid rgb(228, 224, 224);border-radius: 100%;padding: 1rem;}.full-box2{padding: 5.50rem 0;background-color: rgb(243, 241, 241);}
+.full-box2 p{color:rgb(146, 142, 142);font-size: 1.50rem;padding-bottom: 1rem;line-height: 2.30rem;} .full-box2 h2{font-weight: bold;font-size: 3.30rem;}
+.full-box3 p{color:rgb(243, 242, 242);font-size: 1.50rem;padding-bottom: 1rem;line-height: 2.30rem;} .full-box3 h2{font-weight: bold;font-size: 3.30rem;}.full-box3{padding: 5.50rem 0; width: 100%;background-color:hsl(208, 44%, 50%);}
+.full-box4{padding: 7rem 0;text-align: center;background-color: rgb(243, 241, 241);}.full-box4 p{line-height: 2.20rem;padding: 1.50rem 0;font-size: 1.53rem;}.niche{padding-bottom: 2rem;}
+.footer{padding: 6rem 0;color:rgb(187, 186, 186);text-align: center;} .footer i{font-size: 2rem;} .full-box4 h2{font-weight: bold;font-size: 4rem;}.full-box4 .thop p{font-size: 2.40rem;}
+
+@media screen and (max-width:800px) {
+  
+
+    img {
+        width: 85%;
+    }
+    #cent, img { 
+        width: 80%;
+        margin-left: 3.70rem;
+    }
+    
+}
+ul{
+    position: absolute;margin-top: 3rem;
+    background-color: slategray; 
+    width: 100%;
+    padding: 1rem 0;
+    opacity: 0.5;
+    border-radius: 0.30rem;
+ 
+
+}
+
+ul  a{
+    text-align: left; 
+    font-size: 1.80rem;
+    display: block;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+li{
+list-style: none;
+      
+line-height: 2rem;
+}
+ul li a:hover{
+    background-color: rgb(34, 33, 33); 
+    color:steelblue;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    text-decoration: none;
+}
